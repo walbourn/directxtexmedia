@@ -1,0 +1,32 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare resource files as binary
+*.bmp binary
+*.BMP binary
+*.dds binary
+*.DDS binary
+*.gif binary
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.png binary
+*.PNG binary
+*.hdr binary
+*.tga binary
+*.TGA binary
+*.tif binary
+*.TIF binary
+*.tiff binary
+*.pfm binary
+*.wdp binary
+EarthDiffuse.png filter=lfs diff=lfs merge=lfs -binary
+earthdiffuseTexture.PNG filter=lfs diff=lfs merge=lfs -binary
+
+
+Callisto.png filter=lfs diff=lfs merge=lfs -binary
+
+
+World8192.dds filter=lfs diff=lfs merge=lfs -binary
+
+
