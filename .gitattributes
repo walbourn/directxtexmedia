@@ -20,13 +20,10 @@
 *.tiff binary
 *.pfm binary
 *.wdp binary
-EarthDiffuse.png filter=lfs diff=lfs merge=lfs -binary
-earthdiffuseTexture.PNG filter=lfs diff=lfs merge=lfs -binary
-
-
-Callisto.png filter=lfs diff=lfs merge=lfs -binary
-
-
-World8192.dds filter=lfs diff=lfs merge=lfs -binary
-
-
+EarthDiffuse.png filter=lfs diff=lfs merge=lfs binary
+earthdiffuseTexture.PNG filter=lfs diff=lfs merge=lfs binary
+Callisto.png filter=lfs diff=lfs merge=lfs binary
+World8192.dds filter=lfs diff=lfs merge=lfs binary
+earth16kby16k.DDS filter=lfs diff=lfs merge=lfs binary
+earth16kby16k.png filter=lfs diff=lfs merge=lfs binary
+earth16kby16k_snorm.DDS filter=lfs diff=lfs merge=lfs binary
