@@ -18,6 +18,7 @@
 *.tif binary
 *.TIF binary
 *.tiff binary
+*.ppm binary
 *.pfm binary
 *.wdp binary
 EarthDiffuse.png filter=lfs diff=lfs merge=lfs binary
