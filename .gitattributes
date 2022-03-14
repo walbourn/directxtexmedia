@@ -13,6 +13,7 @@
 *.png binary
 *.PNG binary
 *.hdr binary
+*.heic binary
 *.tga binary
 *.TGA binary
 *.tif binary
@@ -21,6 +22,7 @@
 *.ppm binary
 *.pfm binary
 *.wdp binary
+*.webp binary
 EarthDiffuse.png filter=lfs diff=lfs merge=lfs binary
 earthdiffuseTexture.PNG filter=lfs diff=lfs merge=lfs binary
 Callisto.png filter=lfs diff=lfs merge=lfs binary
